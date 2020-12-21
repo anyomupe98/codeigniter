@@ -7,6 +7,14 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome');
 	}
+	public function test()
+	{
+		$this->load->view('welcome');
+	}
+
+	public function registro() {
+		$this->load->view('registro');
+	}
 	
 
 }

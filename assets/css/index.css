@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'cherry';
-    src: url('/font/CherrySwash-Regular.ttf');
+    src: url('../font/CherrySwash-Regular.ttf');
 }
 
 * {
@@ -8,11 +8,9 @@
     margin: 0px;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
-
-
 
 .contenedor-principal {
     display: flex;
@@ -20,7 +18,6 @@ body{
     position: relative;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.376);
-
 }
 
 .contenedor-video {
@@ -61,8 +58,6 @@ body{
     flex: 0 1 calc(40% - 10px);
     /*border: solid 2px red;*/
     padding-left: 110px;
-
-
 }
 
 .contenedor-registrar ul {
@@ -70,13 +65,10 @@ body{
     justify-content: space-around;
     width: 100%;
     padding: 10px;
-
 }
 
 .contenedor-registrar ul li {
     list-style: none;
-
-
 }
 
 .contenedor-registrar ul li a {
@@ -147,9 +139,6 @@ body{
     align-items: center;
     margin-top: 20px;
     margin-bottom: 150px;
-
-
-
 }
 
 .contenedor-parrafo p {

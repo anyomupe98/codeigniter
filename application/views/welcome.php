@@ -15,19 +15,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="../assets/css/index.css">
+        <link rel="stylesheet" href="./assets/css/index.css">
     <title>TwisterApp</title>
 </head>
 
 <body>
     <div class="contenedor-principal">
         <div class="contenedor-video">
-            <video src="../assets/img/pexels-edwin-bond-5429585.mp4" autoplay loop muted></video>
+            <video src="./assets/img/pexels-edwin-bond-5429585.mp4" autoplay loop muted></video>
         </div>
 
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent justify-content-between mb-5">
-            <a class="navbar-brand"><img src="../assets/img/logo_blanco.png" width="208px"></a>
+            <a class="navbar-brand"><img src="./assets/img/logo_blanco.png" width="208px"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,8 +38,8 @@
                 <div class="navbar-nav ml-auto">
 
                     <form class="form-inline">
-                        <a class="btn btn-link text-white text-decoration-none mr-2" href="/index.html">Inicio</a>
-                        <a class="btn btn-link text-white text-decoration-none mr-2" href="/registro.html">Registrate</a>
+                        <a class="btn btn-link text-white text-decoration-none mr-2" href="/codeigniter">Inicio</a>
+                        <a class="btn btn-link text-white text-decoration-none mr-2" href="./index.php/Welcome/registro">Registrate</a>
                         <button class="btn btn-link text-white text-decoration-none mr-2">Categorias</button>
                         <button class="btn btn-success">REGISTRA TU NEGOCIO</button>
                     </form>

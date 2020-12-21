@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-success {
+    border-color: #80b918;
+    background-color: #80b918;
+}
+
+.btn-success:hover {
+    border-color: #80b918;
+    background-color: #94d31f;
+}
+
+.text-success {
+    color: #80b918 !important;
+}
+
+footer ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+footer ul li {
+    text-align: center;
+    list-style: none;
+}
+
+footer ul li a {
+    color:white;
+}
+ 
+body{
+    background-color: #f5f5f5;
+    background: url('back.jpg') no-repeat;
+    background-size: cover;
+}
